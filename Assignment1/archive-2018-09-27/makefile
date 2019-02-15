@@ -1,0 +1,2 @@
+shell: shell.c shellinput.c shell_args.c shell_ls.c shell_jobs.c shell_exec.c shell_pinfo.c shell_env.c shell_reminder.c shell_clock.c
+	gcc -o shell shell.c shellinput.c shell_args.c shell_ls.c shell_exec.c shell_pinfo.c shell_reminder.c shell_jobs.c shell_env.c shell_clock.c -I .
